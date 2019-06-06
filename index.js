@@ -1,8 +1,8 @@
-var  express= requere("express")
-var app =express();
+var express = requiere("express");
+var app = express();
 
-app.get("/",function(request, response) {
-response.send("hello");
+app.get("/",function(request,reponse) {
+    reponse.send("hello");
 });
 
-app.listen(591)
+app.listen(591);
